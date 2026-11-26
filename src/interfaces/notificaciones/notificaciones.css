@@ -1,0 +1,25 @@
+.notification-filters { display: flex; gap: 8px; margin: 18px 0 12px; }
+.notification-filters button { min-width: 77px; padding: 8px 13px; border: 1px solid #e6eeee; border-radius: 17px; color: #819198; background: white; font-size: 9px; }
+.notification-filters button.notification-filter-active { border-color: #168f8a; color: #168f8a; background: #eaf7f5; font-weight: 700; }
+.notification-list-panel { padding-top: 0; padding-bottom: 0; }
+.notification-row { min-height: 95px; display: flex; align-items: center; gap: 13px; padding: 14px 0; border-bottom: 1px solid #edf1f1; }
+.notification-row:last-child { border-bottom: 0; }
+.notification-icon { width: 40px; height: 40px; flex: 0 0 auto; display: grid; place-items: center; border-radius: 50%; color: #168f8a; background: #eaf6f3; }
+.notification-alert_vacuna { color: #b28943; background: #fff5df; }
+.notification-recibo_pago { color: #707bc3; background: #eff0ff; }
+.notification-row > div { flex: 1; }
+.notification-row h2 { margin: 0 0 5px; font: 700 11px "Manrope", sans-serif; }
+.notification-row p { margin: 0 0 5px; color: #76878d; font-size: 9px; }
+.notification-row small { color: #99a5a8; font-size: 8px; }
+.notification-row > a { color: #168f8a; font-size: 9px; font-weight: 700; white-space: nowrap; }
+.notification-popover { position: absolute; z-index: 40; top: 45px; right: -85px; width: min(360px, calc(100vw - 30px)); padding: 14px; border: 1px solid #e6eeee; border-radius: 12px; background: white; box-shadow: 0 16px 40px #263c451c; }
+.notification-popover-heading { display: flex; align-items: center; justify-content: space-between; padding: 4px 2px 12px; }
+.notification-popover-heading strong { color: #30464e; font-size: 12px; }
+.notification-popover-heading span { color: #168f8a; font-size: 8px; }
+.notification-popover-item { display: flex; gap: 9px; padding: 10px 2px; border-top: 1px solid #edf1f1; }
+.notification-popover-item > span:last-child { display: grid; gap: 4px; }
+.notification-popover-item strong { color: #344a52; font-size: 9px; }
+.notification-popover-item small { color: #87969a; font-size: 8px; line-height: 1.4; }
+.notification-dot { width: 7px; height: 7px; margin: 4px 2px; flex: 0 0 auto; border-radius: 50%; background: #e58b71; }
+.notification-popover-all { display: block; padding: 11px 3px 2px; border-top: 1px solid #edf1f1; color: #168f8a; text-align: center; font-size: 9px; font-weight: 700; }
+.topbar-popover-anchor { position: relative; }

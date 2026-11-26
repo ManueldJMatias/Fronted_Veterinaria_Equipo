@@ -1,0 +1,38 @@
+.module-tabs { display: flex; gap: 20px; margin: 18px 0; border-bottom: 1px solid #e6eeee; }
+.module-tabs a { padding: 10px 4px; color: #819198; font-size: 10px; }
+.module-tabs a.module-tab-active { border-bottom: 2px solid #168f8a; color: #168f8a; font-weight: 700; }
+.doctor-grid, .service-catalog { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.doctor-card { display: grid; gap: 13px; }
+.doctor-card-heading { display: flex; align-items: center; gap: 12px; }
+.doctor-avatar { width: 52px; height: 52px; flex: 0 0 auto; display: grid; place-items: center; border-radius: 50%; color: #526977; background: #e9f2f0; font-size: 12px; font-weight: 700; }
+.doctor-card:nth-child(3n + 1) .doctor-avatar { background: #ffe4d5; }
+.doctor-card:nth-child(3n + 2) .doctor-avatar { background: #e9e9ff; }
+.doctor-card h2, .clinic-service-card h2 { margin: 0 0 5px; font: 700 12px "Manrope", sans-serif; color: #30464e; }
+.doctor-card p, .clinic-service-card p { margin: 0; color: #819198; font-size: 9px; }
+.doctor-available { display: flex; align-items: center; gap: 6px; color: #43866c; font-size: 8px; font-weight: 700; }
+.doctor-available i { width: 6px; height: 6px; border-radius: 50%; background: #55a982; }
+.doctor-facts { display: grid; gap: 9px; padding: 12px 0; border-top: 1px solid #edf1f1; }
+.doctor-facts span { display: flex; align-items: center; gap: 7px; color: #708187; font-size: 8px; }
+.doctor-card .primary-button { justify-self: start; text-decoration: none; }
+.clinic-hours { margin-top: 16px; }
+.hours-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.hours-grid p { display: grid; gap: 5px; margin: 0; }
+.hours-grid strong { color: #40565e; font-size: 9px; }
+.hours-grid span { color: #819198; font-size: 9px; }
+.service-category-row { display: flex; gap: 8px; margin: 18px 0 13px; }
+.service-category-row button { padding: 8px 13px; border: 1px solid #e6eeee; border-radius: 17px; color: #718187; background: white; font-size: 9px; }
+.service-category-row button.category-active { border-color: #168f8a; color: #168f8a; background: #eaf7f5; font-weight: 700; }
+.clinic-service-card { display: grid; gap: 10px; }
+.service-icon { width: 35px; height: 35px; display: grid; place-items: center; border-radius: 9px; color: #168f8a; background: #eaf7f5; }
+.service-category { color: #168f8a; font-size: 8px; font-weight: 700; letter-spacing: .5px; }
+.clinic-service-card > div { display: flex; justify-content: space-between; align-items: center; }
+.clinic-service-card > div span { display: flex; align-items: center; gap: 5px; color: #819198; font-size: 9px; }
+.clinic-service-card > div strong { color: #168f8a; font: 700 14px "Manrope", sans-serif; }
+.clinic-service-card > small { color: #89979b; font-size: 8px; }
+.clinic-service-card .secondary-button { justify-self: start; text-decoration: none; }
+@media (max-width: 700px) {
+  .doctor-grid, .service-catalog { grid-template-columns: 1fr; }
+  .hours-grid { grid-template-columns: 1fr; }
+  .service-category-row { overflow-x: auto; }
+  .service-category-row button { white-space: nowrap; }
+}

@@ -1,10 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import InicioCliente from "./interfaces/inicio-cliente/InicioCliente.jsx";
+import { BrowserRouter } from "react-router-dom";
+import App from "./app/App.jsx";
 import "./interfaces/inicio-cliente/inicio-cliente.css";
+import "./styles/interfaces.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <InicioCliente />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
 );
