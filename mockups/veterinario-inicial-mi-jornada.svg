@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title description">
+  <title id="title">Veterinaria · Inicio del veterinario · Mi jornada</title>
+  <desc id="description">Mockup del panel de jornada veterinaria con pacientes en espera, consulta activa, próximas citas y bloqueos.</desc>
+  <defs>
+    <style>
+      text { font-family: "DM Sans", "Segoe UI", Arial, sans-serif; fill: #314751; }
+      .muted { fill: #83949a; }
+      .tiny { font-size: 10px; }
+      .small { font-size: 12px; }
+      .label { font-size: 11px; font-weight: 700; letter-spacing: .45px; }
+      .title { font-family: "Manrope", "Segoe UI", Arial, sans-serif; font-weight: 700; }
+      .on-dark { fill: #fff; }
+    </style>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="9" flood-color="#213941" flood-opacity=".045"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#f3f7f8"/>
+  <rect width="250" height="1000" fill="#fff"/>
+  <path d="M249.5 0v1000" stroke="#e8eeee"/>
+
+  <g aria-label="Navegación lateral">
+    <rect x="25" y="24" width="40" height="40" rx="12" fill="#168f8a"/>
+    <path d="M39 45c0-4 3-7 6-7s6 3 6 7c0 3-2 5-6 7-4-2-6-4-6-7Z" fill="none" stroke="#fff" stroke-width="2"/>
+    <circle cx="38" cy="37" r="2" fill="#fff"/><circle cx="45" cy="34" r="2" fill="#fff"/><circle cx="52" cy="37" r="2" fill="#fff"/>
+    <text x="76" y="49" class="title" font-size="19">Veterinaria</text>
+    <text x="26" y="101" class="tiny muted" font-weight="700" letter-spacing="1.1">ÁREA CLÍNICA</text>
+
+    <rect x="15" y="119" width="220" height="46" rx="9" fill="#eaf7f5"/>
+    <rect x="15" y="129" width="3" height="26" rx="2" fill="#168f8a"/>
+    <rect x="32" y="133" width="17" height="17" rx="5" fill="#d4eeea"/>
+    <path d="M36 142h9m-4.5-4.5v9" stroke="#168f8a" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="60" y="148" font-size="13" font-weight="700" fill="#168f8a">Mi jornada</text>
+
+    <g fill="none" stroke="#829299" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="33" y="184" width="16" height="16" rx="3"/><path d="M37 181v6m8-6v6m-12 1h16"/>
+      <circle cx="41" cy="235" r="8"/><path d="M41 230v5l3 2"/>
+      <path d="M33 282c0-4 3-7 8-7s8 3 8 7v4H33v-4Zm3-10a5 5 0 1 0 10 0 5 5 0 0 0-10 0Z"/>
+      <path d="M33 326h16m-14-4h12v17H35zM38 322v-3m6 3v-3"/>
+    </g>
+    <text x="60" y="198" font-size="12.5" fill="#697c83">Mi agenda</text>
+    <text x="60" y="239" font-size="12.5" fill="#697c83">Pacientes (EHR)</text>
+    <text x="60" y="282" font-size="12.5" fill="#697c83">Mi disponibilidad</text>
+    <text x="60" y="335" font-size="12.5" fill="#697c83">Hospitalización</text>
+    <rect x="155" y="322" width="67" height="20" rx="10" fill="#f1f3f4"/>
+    <text x="188.5" y="336" text-anchor="middle" class="tiny muted" font-weight="700">FASE 2</text>
+
+    <rect x="16" y="883" width="218" height="1" fill="#edf1f1"/>
+    <circle cx="47" cy="921" r="20" fill="#f5e5dc"/>
+    <text x="47" y="925" text-anchor="middle" font-size="11" font-weight="700" fill="#8b604b">BJ</text>
+    <text x="77" y="918" font-size="11.5" font-weight="700">Beatriz Jiménez</text>
+    <text x="77" y="936" class="tiny muted">Médica veterinaria</text>
+    <circle cx="211" cy="921" r="3" fill="#a2afb3"/>
+    <circle cx="211" cy="929" r="3" fill="#a2afb3"/>
+    <circle cx="211" cy="937" r="3" fill="#a2afb3"/>
+  </g>
+
+  <g aria-label="Barra superior">
+    <rect x="250" width="1350" height="75" fill="#fff"/>
+    <path d="M250 74.5h1350" stroke="#e8eeee"/>
+    <text x="285" y="44" font-size="12" font-weight="700">Veterinaria</text>
+    <path d="m356 39 4 4-4 4" fill="none" stroke="#a3b0b3" stroke-width="1.5"/>
+    <text x="373" y="44" font-size="12" fill="#168f8a" font-weight="700">Mi jornada</text>
+
+    <rect x="987" y="20" width="270" height="36" rx="8" fill="#f7f9fa" stroke="#e7edef"/>
+    <circle cx="1007" cy="37" r="6" fill="none" stroke="#91a1a5" stroke-width="1.4"/>
+    <path d="m1011.5 41.5 4 4" stroke="#91a1a5" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="1022" y="41" font-size="10.5" class="muted">Buscar mascota o propietario</text>
+    <rect x="1219" y="28" width="25" height="20" rx="5" fill="#fff" stroke="#e2e9ea"/>
+    <text x="1231.5" y="42" text-anchor="middle" font-size="9" class="muted">⌘ K</text>
+
+    <circle cx="1294" cy="38" r="18" fill="#f7f9fa"/>
+    <path d="M1289 41v-5a5 5 0 0 1 10 0v5l2 3h-14l2-3Zm3 6h4" fill="none" stroke="#6f8288" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1306" cy="25" r="8" fill="#e78271" stroke="#fff" stroke-width="2"/>
+    <text class="on-dark" x="1306" y="28" text-anchor="middle" font-size="8" font-weight="700">3</text>
+    <circle cx="1342" cy="38" r="19" fill="#f2e3db"/>
+    <text x="1342" y="42" text-anchor="middle" font-size="11" font-weight="700" fill="#855c49">BJ</text>
+    <text x="1371" y="36" font-size="11" font-weight="700">Dra. Beatriz</text>
+    <text x="1371" y="51" font-size="9.5" class="muted">Cuenta profesional</text>
+    <path d="m1475 35 4 4-4 4" fill="none" stroke="#87989d" stroke-width="1.4"/>
+  </g>
+
+  <g aria-label="Contenido principal">
+    <text x="285" y="120" class="title" font-size="25">Mi jornada</text>
+    <text x="285" y="145" font-size="11.5" class="muted">Resumen operativo de hoy · miércoles, 25 de noviembre de 2026</text>
+    <rect x="1386" y="103" width="174" height="38" rx="8" fill="#168f8a"/>
+    <path d="M1404 115h13m-13 6h13m-13 6h9" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+    <text class="on-dark" x="1427" y="127" font-size="11" font-weight="700">Ver mi agenda</text>
+
+    <g filter="url(#shadow)">
+      <rect x="285" y="166" width="300" height="118" rx="12" fill="#fff" stroke="#e9eff0"/>
+      <rect x="605" y="166" width="300" height="118" rx="12" fill="#fff" stroke="#e9eff0"/>
+      <rect x="925" y="166" width="300" height="118" rx="12" fill="#fff" stroke="#e9eff0"/>
+      <rect x="1245" y="166" width="315" height="118" rx="12" fill="#fff" stroke="#e9eff0"/>
+    </g>
+    <rect x="304" y="185" width="38" height="38" rx="10" fill="#eaf7f5"/>
+    <path d="M315 195h16v16h-16zM319 192v5m8-5v5m-12 2h16" fill="none" stroke="#168f8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="354" y="198" class="small muted">Citas de hoy</text>
+    <text x="304" y="252" class="title" font-size="27">10</text>
+    <text x="340" y="251" class="tiny muted">en tu agenda</text>
+    <rect x="473" y="192" width="91" height="22" rx="11" fill="#f1f5f5"/>
+    <text x="518.5" y="207" text-anchor="middle" class="tiny muted" font-weight="700">JORNADA ACTIVA</text>
+
+    <rect x="624" y="185" width="38" height="38" rx="10" fill="#fff4e6"/>
+    <circle cx="643" cy="204" r="8" fill="none" stroke="#bd8947" stroke-width="1.6"/>
+    <path d="M643 199v5l4 2" fill="none" stroke="#bd8947" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="674" y="198" class="small muted">En sala de espera</text>
+    <text x="624" y="252" class="title" font-size="27">2</text>
+    <text x="660" y="251" class="tiny muted">pacientes listos</text>
+    <circle cx="876" cy="202" r="4" fill="#e7a54e"/>
+
+    <rect x="944" y="185" width="38" height="38" rx="10" fill="#eff0ff"/>
+    <path d="M955 208c0-6 3-10 8-10s8 4 8 10v2h-16v-2Z" fill="none" stroke="#777dc2" stroke-width="1.5"/>
+    <circle cx="963" cy="193" r="3" fill="none" stroke="#777dc2" stroke-width="1.5"/>
+    <text x="994" y="198" class="small muted">En consulta</text>
+    <text x="944" y="252" class="title" font-size="27">1</text>
+    <text x="980" y="251" class="tiny muted">consulta en curso</text>
+    <rect x="1151" y="192" width="55" height="22" rx="11" fill="#f0efff"/>
+    <text x="1178.5" y="207" text-anchor="middle" font-size="9" font-weight="700" fill="#777dc2">ACTIVA</text>
+
+    <rect x="1264" y="185" width="38" height="38" rx="10" fill="#eaf6f0"/>
+    <path d="m1275 203 5 5 9-11" fill="none" stroke="#4b9b76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1314" y="198" class="small muted">Completadas</text>
+    <text x="1264" y="252" class="title" font-size="27">4</text>
+    <text x="1300" y="251" class="tiny muted">40% de la jornada</text>
+    <rect x="1451" y="198" width="84" height="5" rx="3" fill="#e9f0ed"/>
+    <rect x="1451" y="198" width="34" height="5" rx="3" fill="#56a681"/>
+
+    <g filter="url(#shadow)">
+      <rect x="285" y="304" width="830" height="430" rx="12" fill="#fff" stroke="#e9eff0"/>
+      <rect x="1135" y="304" width="425" height="272" rx="12" fill="#fff" stroke="#e9eff0"/>
+      <rect x="1135" y="592" width="425" height="142" rx="12" fill="#fff" stroke="#e9eff0"/>
+    </g>
+    <text x="307" y="338" class="title" font-size="15">Pacientes listos para atención</text>
+    <text x="307" y="358" font-size="10" class="muted">Citas que recepción marcó en sala de espera o en consulta.</text>
+    <rect x="1015" y="322" width="77" height="24" rx="12" fill="#eaf7f5"/>
+    <circle cx="1030" cy="334" r="3" fill="#168f8a"/>
+    <text x="1071" y="338" text-anchor="middle" font-size="9" font-weight="700" fill="#168f8a">3 PACIENTES</text>
+    <path d="M307 378h786" stroke="#edf1f2"/>
+    <text x="308" y="402" class="tiny muted" font-weight="700" letter-spacing=".5">MASCOTA</text>
+    <text x="483" y="402" class="tiny muted" font-weight="700" letter-spacing=".5">CITA</text>
+    <text x="649" y="402" class="tiny muted" font-weight="700" letter-spacing=".5">PROPIETARIO</text>
+    <text x="816" y="402" class="tiny muted" font-weight="700" letter-spacing=".5">ESTADO</text>
+    <text x="981" y="402" class="tiny muted" font-weight="700" letter-spacing=".5">ACCIÓN</text>
+    <path d="M307 415h786" stroke="#edf1f2"/>
+
+    <circle cx="334" cy="454" r="19" fill="#fff0e8"/>
+    <text x="334" y="460" text-anchor="middle" font-size="19">🐱</text>
+    <text x="364" y="450" font-size="11.5" font-weight="700">Moka</text>
+    <text x="364" y="466" class="tiny muted">Gata · Europea · 4 años</text>
+    <text x="483" y="450" font-size="10.5" font-weight="600">09:30</text>
+    <text x="483" y="466" class="tiny muted">Consulta general</text>
+    <text x="649" y="450" font-size="10.5" font-weight="600">Elena Ruiz</text>
+    <text x="649" y="466" class="tiny muted">Primera visita</text>
+    <rect x="816" y="442" width="116" height="22" rx="11" fill="#fff5e5"/>
+    <circle cx="829" cy="453" r="3" fill="#d69a42"/>
+    <text x="875" y="457" text-anchor="middle" font-size="8.5" font-weight="700" fill="#a87935">EN SALA · 12 MIN</text>
+    <rect x="973" y="438" width="111" height="31" rx="7" fill="#168f8a"/>
+    <text class="on-dark" x="1028.5" y="458" text-anchor="middle" font-size="9.5" font-weight="700">Iniciar atención</text>
+    <path d="M307 486h786" stroke="#edf1f2"/>
+
+    <circle cx="334" cy="524" r="19" fill="#edf0ff"/>
+    <text x="334" y="530" text-anchor="middle" font-size="19">🐶</text>
+    <text x="364" y="520" font-size="11.5" font-weight="700">Toby</text>
+    <text x="364" y="536" class="tiny muted">Perro · Labrador · 6 años</text>
+    <text x="483" y="520" font-size="10.5" font-weight="600">10:00</text>
+    <text x="483" y="536" class="tiny muted">Vacunación</text>
+    <text x="649" y="520" font-size="10.5" font-weight="600">Diego López</text>
+    <text x="649" y="536" class="tiny muted">Control anual</text>
+    <rect x="816" y="512" width="116" height="22" rx="11" fill="#fff5e5"/>
+    <circle cx="829" cy="523" r="3" fill="#d69a42"/>
+    <text x="875" y="527" text-anchor="middle" font-size="8.5" font-weight="700" fill="#a87935">EN SALA · 5 MIN</text>
+    <rect x="973" y="508" width="111" height="31" rx="7" fill="#168f8a"/>
+    <text class="on-dark" x="1028.5" y="528" text-anchor="middle" font-size="9.5" font-weight="700">Iniciar atención</text>
+    <path d="M307 556h786" stroke="#edf1f2"/>
+
+    <circle cx="334" cy="594" r="19" fill="#eaf6f0"/>
+    <text x="334" y="600" text-anchor="middle" font-size="19">🐕</text>
+    <text x="364" y="590" font-size="11.5" font-weight="700">Nala</text>
+    <text x="364" y="606" class="tiny muted">Perro · Mestiza · 2 años</text>
+    <text x="483" y="590" font-size="10.5" font-weight="600">10:30</text>
+    <text x="483" y="606" class="tiny muted">Seguimiento</text>
+    <text x="649" y="590" font-size="10.5" font-weight="600">Sofía Marín</text>
+    <text x="649" y="606" class="tiny muted">Consulta abierta</text>
+    <rect x="816" y="582" width="116" height="22" rx="11" fill="#eff0ff"/>
+    <circle cx="829" cy="593" r="3" fill="#777dc2"/>
+    <text x="875" y="597" text-anchor="middle" font-size="8.5" font-weight="700" fill="#6f75b7">EN ATENCIÓN</text>
+    <rect x="973" y="578" width="111" height="31" rx="7" fill="#fff" stroke="#c9ddda"/>
+    <text x="1028.5" y="598" text-anchor="middle" font-size="9.5" font-weight="700" fill="#168f8a">Continuar consulta</text>
+    <path d="M307 626h786" stroke="#edf1f2"/>
+
+    <rect x="307" y="650" width="786" height="54" rx="8" fill="#f7faf9"/>
+    <circle cx="328" cy="677" r="10" fill="#e7f2ef"/>
+    <path d="M328 671v6l4 2" fill="none" stroke="#5d9b85" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="348" y="674" font-size="9.5" font-weight="600">La llegada y el cambio de estado se registran en recepción.</text>
+    <text x="348" y="690" class="tiny muted">Aquí puedes abrir o continuar la atención clínica de los pacientes listos.</text>
+
+    <text x="1157" y="338" class="title" font-size="14">Próximas citas</text>
+    <a href="#" aria-label="Ver agenda"><text x="1515" y="338" text-anchor="end" font-size="9.5" font-weight="700" fill="#168f8a">Ver agenda →</text></a>
+    <path d="M1157 355h381" stroke="#edf1f2"/>
+    <rect x="1157" y="371" width="43" height="45" rx="8" fill="#f4f8f8"/>
+    <text x="1178.5" y="389" text-anchor="middle" font-size="8" font-weight="700" fill="#168f8a">11:30</text>
+    <text x="1178.5" y="404" text-anchor="middle" class="tiny muted">HOY</text>
+    <text x="1213" y="387" font-size="10.5" font-weight="700">Luna · Revisión general</text>
+    <text x="1213" y="404" class="tiny muted">Mariana García · Consultorio 1</text>
+    <rect x="1470" y="379" width="68" height="19" rx="10" fill="#eaf6f0"/>
+    <text x="1504" y="392" text-anchor="middle" font-size="8" font-weight="700" fill="#43866c">CONFIRMADA</text>
+    <path d="M1157 429h381" stroke="#edf1f2"/>
+    <rect x="1157" y="445" width="43" height="45" rx="8" fill="#f4f8f8"/>
+    <text x="1178.5" y="463" text-anchor="middle" font-size="8" font-weight="700" fill="#168f8a">12:00</text>
+    <text x="1178.5" y="478" text-anchor="middle" class="tiny muted">HOY</text>
+    <text x="1213" y="461" font-size="10.5" font-weight="700">Bruno · Consulta general</text>
+    <text x="1213" y="478" class="tiny muted">Arturo León · Consultorio 2</text>
+    <rect x="1470" y="453" width="68" height="19" rx="10" fill="#fff5e5"/>
+    <text x="1504" y="466" text-anchor="middle" font-size="8" font-weight="700" fill="#a87935">PENDIENTE</text>
+    <path d="M1157 503h381" stroke="#edf1f2"/>
+    <rect x="1157" y="519" width="43" height="39" rx="8" fill="#f4f8f8"/>
+    <text x="1178.5" y="537" text-anchor="middle" font-size="8" font-weight="700" fill="#168f8a">12:30</text>
+    <text x="1178.5" y="551" text-anchor="middle" class="tiny muted">HOY</text>
+    <text x="1213" y="535" font-size="10.5" font-weight="700">Emma · Vacunación</text>
+    <text x="1213" y="552" class="tiny muted">Paola Cruz · Consultorio 1</text>
+
+    <text x="1157" y="622" class="title" font-size="14">Bloqueos próximos</text>
+    <a href="#" aria-label="Administrar disponibilidad"><text x="1538" y="622" text-anchor="end" font-size="9" font-weight="700" fill="#168f8a">Administrar →</text></a>
+    <rect x="1157" y="640" width="35" height="35" rx="9" fill="#fff1e9"/>
+    <path d="M1167 657h15m-12-5v10m9-10v10" stroke="#c77d61" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="1203" y="653" font-size="10" font-weight="700">Cirugía programada</text>
+    <text x="1203" y="669" class="tiny muted">Mañana · 12:00–14:00 · Consultorio 1</text>
+    <rect x="1448" y="646" width="90" height="21" rx="10" fill="#fff5e5"/>
+    <text x="1493" y="660" text-anchor="middle" font-size="8" font-weight="700" fill="#a87935">EN 1 DÍA</text>
+    <text x="285" y="770" class="tiny muted">Datos de demostración · Agenda clínica del día</text>
+    <text x="1560" y="770" text-anchor="end" class="tiny muted">Vista inicial · Rol Veterinario</text>
+  </g>
+</svg>
