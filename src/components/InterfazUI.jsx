@@ -16,7 +16,7 @@ export function PageHeader({ eyebrow, title, description, action }) {
 
 export function StatusBadge({ status }) {
   const normalized = status?.toUpperCase() ?? "PENDIENTE";
-  const className = normalized.includes("COMPLET") || normalized === "PAGADA" || normalized === "CONFIRMADA" || normalized === "AL DÍA"
+  const className = normalized.includes("COMPLET") || normalized === "PAGADA" || normalized === "CONFIRMADA" || normalized === "ACTIVA" || normalized === "DISPONIBLE" || normalized === "ESTABLE" || normalized === "AL DÍA"
     ? "status-success"
     : normalized.includes("ATENCION") || normalized.includes("SALA")
       ? "status-progress"

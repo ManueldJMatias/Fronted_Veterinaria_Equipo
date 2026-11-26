@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./app/App.jsx";
 import "./interfaces/inicio-cliente/inicio-cliente.css";
 import "./styles/interfaces.css";
+import "./interfaces/veterinario/veterinario.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
